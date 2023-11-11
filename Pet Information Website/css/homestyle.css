@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #95a5a6;
+}
+
+header {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+
+nav ul li a:link, nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#one {
+    float: left;
+    background-color: cornflowerblue;
+    width: 35%;
+    height: 530px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.par {
+    margin-bottom: 5%;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+button {
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+    padding: 16px 33px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#two {
+    float: left;
+    background-color: #f1c40f;
+    width: 35%;
+    height: 530px;
+}
+
+#text {
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+label {
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+#AnimalOption, #Breeds, #CatBreeds {
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    padding: 2px;
+}
+
+#tex {
+    color: black;
+    margin-top: 2%;
+}
+
+.input {
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+#container {
+   background-color: #f2f2f2;
+   border-style: solid;
+    border-color: #333;
+}
+
+#Sub {
+    background-color: #008cba;
+    border-color: #008cba;
+    color: white;
+    padding: 10px 33px;
+    width: 60%;
+}
+
+#three {
+    background-color: green;
+    height: 530px;
+}
+footer {
+    clear: left;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: crimson;
+    text-align: center;
+    height: 140px;
+    padding: 1%;
+}
+
+#CatBreeds {
+    display: none;
+}
+
+#resultText2 {
+    margin-top: -3%;
+}
+
+
+@media only screen and (max-width:600px) {
+    .par {
+        font-size: 15px;
+    }
+    .gallery {
+        margin-left: 25%;
+    }
+    #one {
+        width: 100%;
+        height: 100%;
+    }
+    #two {
+        width: 100%;
+        height: 100%;
+    }
+    #three {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        margin-top: -5%;
+    }
+}
+

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul li a:link, nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:link, nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#myCarousel {
+    height: 600px;
+    background-color: #333;
+}
+
+.animals {
+    width: 100%;
+  
+    height: 600px;
+}
+
+/*
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #3b8565;
+}*/
+
+footer {
+    clear: left;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: crimson;
+    text-align: center;
+    height: 140px;
+    padding: 1%;
+}
+
+.carousel-control-next {
+    margin-left: 10%;
+}
+
+.carousel-inner {
+    text-align: center;
+    height: 600px;
+}
+

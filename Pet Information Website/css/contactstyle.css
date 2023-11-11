@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #95a5a6;
+}
+
+header {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+nav {
+    background-color: #333;
+}
+
+
+
+nav ul li a:link, nav li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#one {
+    float: left;
+    background-color: crimson;
+    width: 40%;
+}
+
+form {
+    font-family: Verdana;
+    display: block;
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 86.5%;
+}
+
+footer {
+    clear: left;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: crimson;
+    text-align: center;
+    height: 140px;
+    padding: 1%;
+}
+
+#two {
+    float: left;
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 695px;
+    margin-left: 30%;
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #ccc;
+    resize: horizontal;
+}
+
+.par {
+    margin-bottom: 5%;
+    font-size: 25px;
+    font-family: Verdana;
+    color: wheat;
+}
+
+input[type = "submit"] {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+    padding: 15px 33px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: -2%;
+}
